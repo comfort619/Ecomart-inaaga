@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#first1 li a{
+border-radius: 5px !important;
+border-color: white !important;
+}
+
+.price{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.app{
+    font-size: 15px;
+    
+}
+.app1{
+ text-align: center;
+ width: 300px;
+ color:white;
+}
+
+.loop{
+    text-align: center;
+    border-radius: 5px !important;
+    border-color: chocolate !important;
+}
+
+
+.glad3{
+    position: relative;
+    left: -60px;
+    color: yellowgreen;
+    transition: 0.3s;
+    /* margin-top: 80px;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative !important;
+    left: -90px !important;
+    color:yellowgreen;
+    font-size: 15px;
+    font-family: arial;
+
+   padding: 15px;
+   padding-bottom:5px;
+   padding-top: 5px; 
+   height: 15px; */
+    }
+.sub input{
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.active:hover{
+    animation-name: totop;
+    animation-duration: 1s;
+    top: -20px;
+/* margin-top: -20px!important; */
+/* margin-bottom: 20px!important; */
+box-shadow: -0.5px  -0.5px 15px lightgrey;
+
+}
+.active{
+    transition: 0.5s all;
+    animation: tobottom 1s;
+} 
+@keyframes totop{
+    from{
+        top: 0;
+    }
+    to{
+        top: -20px;
+    }
+}
+@keyframes tobottom{
+    from{
+        top: -20px;
+    }
+    to{
+        top: 0;
+    }
+}
+.sub{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
